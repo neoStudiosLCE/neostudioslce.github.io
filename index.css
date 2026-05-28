@@ -1,8 +1,12 @@
 :root {
     --bg: #0f1012;
-    --primary: #5f0f79;
+    --primary: #6c14a9;
     --ink: rgb(255, 255, 255);
     --secondary-ink: rgb(224, 224, 224);
+}
+
+a {
+    text-decoration: none;
 }
 
 html {
@@ -201,18 +205,18 @@ footer .disclaimer {
     text-align: center;
     color: var(--secondary-ink);
     font-size: 20px;
-    font-weight: bold;
     margin: 15px;
 }
 
 .primary-btn {
     background: var(--primary);
     filter: brightness(1);
+    border: 1px solid #431245;
 }
 
 .normal-btn {
     background: #0f10128d;
-    border: 1px dotted rgb(54, 54, 54);
+    border: 1px solid rgb(32, 32, 32)
 }
 
 .normal-btn,
@@ -423,7 +427,7 @@ footer .disclaimer {
 }
 
 #launchers > p > a {
-    color: var(--primary);
+    color: #9515dc;
 }
 
 .launchers-list {
